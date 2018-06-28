@@ -4,11 +4,11 @@ IELTS KEYs is an educational application aims at providing students with relevan
 
 ## Getting Started
 
-1.Homwpage
-2. Listening Module
-3. Reading Module
-4. Writing Module
-5. Speaking Module
+1.Homepage<br>
+2. Listening Module <br>
+3. Reading Module <br>
+4. Writing Module<br> 
+5. Speaking Module<br> 
 
 ### Prerequisites
 
