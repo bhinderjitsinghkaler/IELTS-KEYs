@@ -1,0 +1,8 @@
+{
+  "name": "IELTS",
+  "app_id": "347d78a9",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

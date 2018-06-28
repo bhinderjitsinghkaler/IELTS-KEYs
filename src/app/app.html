@@ -1,0 +1,104 @@
+<ion-menu [content]="content" type="overlay" >
+  <ion-header>
+    <ion-toolbar color="appcolor">
+      <ion-title></ion-title>
+        <div class="inslogo">
+          <img src="./assets/img/rayn-institute-logo-1.png">
+        </div>
+          <br>
+        <div class="insname">
+          <p><b>Ryan's Ielts Academy</b></p>
+        </div>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+      <ion-list no-padding no-margin style="margin-top:40px;">
+          <button ion-button clear no-padding no-margin (click)="gotolistening()" menuToggle>
+              <ion-item no-lines class="menuitem">
+                <ion-icon name="ios-headset" ></ion-icon>
+                &nbsp;&nbsp;
+                Listening
+              </ion-item>
+          </button>
+        </ion-list>
+    
+        <ion-list no-padding no-margin>
+          <button ion-button clear no-padding no-margin (click)="gotoreading()" menuToggle>
+              <ion-item no-lines class="menuitem">
+                <ion-icon name="ios-book" ></ion-icon>
+                &nbsp;&nbsp;
+                Reading
+              </ion-item>
+              </button>
+        </ion-list>
+    
+         <ion-list no-padding no-margin>
+           <button ion-button clear no-padding no-margin (click)="gotowriting()" menuToggle>
+              <ion-item no-lines class="menuitem">
+                <ion-icon name="ios-create" ></ion-icon>
+                &nbsp;&nbsp;
+               Writing
+              </ion-item>
+              </button>
+        </ion-list>
+    
+        <ion-list no-padding no-margin>
+          <button ion-button clear no-padding no-margin (click)="gotospeaking()" menuToggle>
+              <ion-item no-lines class="menuitem">
+                <ion-icon name="ios-mic" ></ion-icon>
+                &nbsp;&nbsp;
+               Speaking
+              </ion-item>
+              </button>
+        </ion-list>
+    
+         <ion-list no-padding no-margin>
+           <button ion-button clear no-padding no-margin (click)="gotovocab()" menuToggle>
+              <ion-item no-lines class="menuitem">
+                <ion-icon name="ios-paper" ></ion-icon>
+                &nbsp;&nbsp;
+               IELTS Vocab
+              </ion-item>
+              </button>
+        </ion-list>
+    
+        <ion-list no-padding no-margin>
+          <button ion-button clear no-padding no-margin (click)="gotogrammar()" menuToggle>
+              <ion-item no-lines class="menuitem">
+                <ion-icon name="md-hand" ></ion-icon>
+                &nbsp;&nbsp;
+               IELTS Grammar
+              </ion-item>
+              </button>
+        </ion-list>
+    
+    
+        <ion-list no-padding no-margin>
+            <button ion-button clear no-padding no-margin (click)="gotoexternalresources()" menuToggle>
+                <ion-item no-lines class="menuitem">
+                  <ion-icon name="ios-open" ></ion-icon>
+                  &nbsp;&nbsp;
+                 External Resources
+                </ion-item>
+                </button>
+          </ion-list>
+    
+              
+         <ion-list no-padding no-margin>
+           <button ion-button clear no-padding no-margin (click)="gotoaboutus()" menuToggle>
+              <ion-item no-lines class="menuitem">
+                <ion-icon name="ios-information-circle" ></ion-icon>
+                &nbsp;&nbsp;
+               About Us
+              </ion-item>
+              </button>
+        </ion-list>
+
+            
+  </ion-content>
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

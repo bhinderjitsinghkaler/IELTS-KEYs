@@ -1,0 +1,64 @@
+    *{
+    font-family: ubuntu;
+    }
+
+   .swiper-pagination-bullet-active{
+       background: #e92e4a;
+       opacity: 1;
+   }
+
+
+.logo{
+    width:100%;
+    }
+
+.logo img{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    width: 60%;
+    top:120px;
+    margin: 0px auto;
+    }
+
+
+.h4{
+    position: relative;
+    font-size: 170%;
+    color: #e92e4a;
+    text-align: left;
+    top:150px;
+    left: 26px;
+    }
+
+.unlock{
+    font-size: 180%;
+    float: left;
+    text-align: left;
+    position: relative;
+    top:150px;
+    left: 25px;
+    color: #e92e4a;
+    }
+
+.swiper-slide img{
+    width:25px;
+}
+    
+table{
+    position: relative;
+    top: 160px;
+    left: 25px;
+    line-height: 0px;
+    text-align: left;
+}
+
+.free{
+    font-size: 180%;
+    float: left;
+    text-align: left;
+    position: relative;
+    top:150px;
+    left: 25px;
+    color: #e92e4a;
+    } 
