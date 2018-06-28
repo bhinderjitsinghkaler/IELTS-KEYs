@@ -22,3 +22,16 @@ IELTS KEYs is an educational application aims at providing students with relevan
 3. Clone this repository: git clone https://github.com/bhinderjitsinghkaler/IELTS-KEYs
 4. Run npm install from the project root.
 5. Run ionic serve in a terminal from the project root
+
+
+## App UI
+
+<img src="ss1.png" alt="wireframe">
+
+## Version
+
+2.0
+
+## Author
+
+Bhinderjit Singh Kaler
