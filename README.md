@@ -26,12 +26,11 @@ IELTS KEYs is an educational application aims at providing students with relevan
 
 ## App UI
 
-<img src="ss1.png">
 <img src="ss2.png">
 
 ## App Running View
 
-<img src="ieltskeys.gif">
+<img src="ieltskeys.gif" alt="wireframe">
 
 
 ## Version
