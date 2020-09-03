@@ -24,7 +24,7 @@
         "@ionic-native/splash-screen": "3.12.1",
         "@ionic-native/status-bar": "3.12.1",
         "@ionic/storage": "2.0.1",
-        "cordova-android": "5.1.1",
+        "cordova-android": "6.0.0",
         "cordova-plugin-console": "^1.1.0",
         "cordova-plugin-device": "^1.1.7",
         "cordova-plugin-splashscreen": "^4.1.0",
